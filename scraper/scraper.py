@@ -6,7 +6,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-API_KEY = os.getenv("API_KEY", "ok_b2359549e446af88dfa5a5265a32c303")
+API_KEY = os.getenv("API_KEY", "ok_384bcd3756fb2feccfe1ddc0d7aad913")
 BASE_URL = "https://tripadvisor-scraper-api.omkar.cloud/tripadvisor/reviews"
 
 # Use the resolved TripAdvisor URL directly
