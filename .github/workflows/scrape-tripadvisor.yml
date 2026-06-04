@@ -2,8 +2,8 @@ name: Scrape Pashupatinath Reviews
 
 on:
   schedule:
-    - cron: '0 0 */15 * *'   # Every 15 days at midnight UTC
-  workflow_dispatch:           # Manual trigger for testing
+    - cron: '0 0 */15 * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -39,46 +39,9 @@ jobs:
           path: raw_reviews/
           retention-days: 30
 
-      - name: Install Databricks CLI
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
-
       - name: Upload to Unity Catalog Volume
         env:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
         run: |
-          RUN_DATE=$(date +%Y%m%d_%H%M%S)
-          TARGET_PATH="/Volumes/workspace/default/raw_tripadvisor_reviews/run_${RUN_DATE}"
-
-          echo "Uploading to ${TARGET_PATH}"
-
-          # Create target directory by uploading then removing a dummy file
-          echo '{"init": true}' > /tmp/init.json
-          databricks fs cp /tmp/init.json "${TARGET_PATH}/init.json"
-          databricks fs rm "${TARGET_PATH}/init.json"
-
-          # Upload JSONL files one by one
-          for file in raw_reviews/reviews_*.jsonl; do
-            if [ -f "$file" ]; then
-              echo "Uploading $file..."
-              databricks fs cp "$file" "${TARGET_PATH}/"
-            fi
-          done
-
-          # Upload manifest files one by one
-          for file in raw_reviews/manifest_*.json; do
-            if [ -f "$file" ]; then
-              echo "Uploading $file..."
-              databricks fs cp "$file" "${TARGET_PATH}/"
-            fi
-          done
-
-          # Upload page files using recursive copy
-          mkdir -p /tmp/pages
-          cp raw_reviews/page_*.json /tmp/pages/ 2>/dev/null || true
-          if [ "$(ls -A /tmp/pages)" ]; then
-            databricks fs cp -r /tmp/pages "${TARGET_PATH}/pages"
-          fi
-
-          echo "✓ Upload complete: ${TARGET_PATH}"
+          python scraper/upload_to_databricks.py
