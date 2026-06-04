@@ -20,15 +20,14 @@ def upload_file(local_path, remote_path):
     with open(local_path, "rb") as f:
         response = requests.put(url, headers=headers, data=f)
 
-    if response.status_code not in [200, 201]:
+    # 200, 201, 204 are all success codes for Databricks file upload
+    if response.status_code not in [200, 201, 204]:
         raise Exception(f"Upload failed: {response.status_code} - {response.text}")
 
     print(f"✓ Uploaded {local_path} → {remote_path}")
 
 def create_directory(remote_dir):
     """Create directory by uploading empty file then deleting it"""
-    # Databricks volumes don't have explicit mkdir in REST API
-    # We create the directory structure by uploading a file to it
     temp_file = "/tmp/.dir_placeholder"
     with open(temp_file, "w") as f:
         f.write("")
@@ -39,7 +38,8 @@ def create_directory(remote_dir):
     with open(temp_file, "rb") as f:
         response = requests.put(url, headers=headers, data=f)
 
-    if response.status_code in [200, 201]:
+    # 204 is success (no content)
+    if response.status_code in [200, 201, 204]:
         # Delete the placeholder
         requests.delete(url, headers=headers)
         print(f"✓ Created directory: {remote_dir}")
