@@ -39,6 +39,27 @@ jobs:
           path: raw_reviews/
           retention-days: 30
 
-      # Step 3.3: Push to Databricks (we'll add this next)
-      # - name: Upload to Databricks Unity Catalog Volume
-      #   run: ...
+      # ========== NEW: Databricks Upload ==========
+      - name: Install Databricks CLI
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+
+      - name: Upload to Unity Catalog Volume
+        env:
+          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+        run: |
+          # Create dated folder in volume
+          RUN_DATE=$(date +%Y%m%d_%H%M%S)
+          TARGET_PATH="/Volumes/workspace/default/raw_tripadvisor_reviews/run_${RUN_DATE}"
+
+          echo "Uploading to ${TARGET_PATH}"
+
+          # Upload JSONL and manifest
+          databricks fs cp raw_reviews/reviews_*.jsonl "${TARGET_PATH}/"
+          databricks fs cp raw_reviews/manifest_*.json "${TARGET_PATH}/"
+
+          # Also upload individual page files for audit
+          databricks fs cp -r raw_reviews/page_*.json "${TARGET_PATH}/pages/"
+
+          echo "✓ Upload complete: ${TARGET_PATH}"
