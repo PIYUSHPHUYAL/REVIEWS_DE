@@ -1,15 +1,17 @@
-# scraper_production.py
+# scraper/scraper.py — Production scraper with resolved URL
 import requests
 import json
 import os
 import time
-import hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 
 API_KEY = os.getenv("API_KEY", "ok_561346d2d2bc79640d992fbd66ed3b43")
 BASE_URL = "https://tripadvisor-scraper-api.omkar.cloud/tripadvisor/reviews"
-QUERY = "Pashupatinath Temple, Kathmandu"
+
+# Use the resolved TripAdvisor URL directly
+QUERY = "https://www.tripadvisor.com/Attraction_Review-g293890-d310712-Reviews-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html"
+
 OUTPUT_DIR = "raw_reviews"
 CHECKPOINT_FILE = "checkpoint.json"
 
@@ -30,8 +32,21 @@ def fetch_page(page, max_retries=3):
             resp = requests.get(BASE_URL, params=params, headers=headers, timeout=30)
             resp.raise_for_status()
             return resp.json()
+        except requests.exceptions.HTTPError as e:
+            try:
+                error_body = e.response.json()
+                log(f"Page {page} HTTP {e.response.status_code}: {error_body}")
+            except:
+                log(f"Page {page} HTTP {e.response.status_code}: {e.response.text[:500]}")
+
+            if e.response.status_code == 400:
+                raise Exception(f"Page {page} failed with 400 Bad Request: {e.response.text[:500]}")
+
+            wait = 2 ** attempt
+            log(f"Page {page} attempt {attempt+1} failed: {e}. Retrying in {wait}s...")
+            time.sleep(wait)
         except requests.exceptions.RequestException as e:
-            wait = 2 ** attempt  # 1s, 2s, 4s
+            wait = 2 ** attempt
             log(f"Page {page} attempt {attempt+1} failed: {e}. Retrying in {wait}s...")
             time.sleep(wait)
 
@@ -65,7 +80,6 @@ def scrape():
         data = fetch_page(page)
         reviews = data.get("results", [])
 
-        # Save individual page (idempotent — overwrites if re-run)
         page_file = f"{OUTPUT_DIR}/page_{page:04d}_{run_id}.json"
         with open(page_file, "w", encoding="utf-8") as f:
             json.dump({
@@ -88,15 +102,13 @@ def scrape():
             break
 
         page += 1
-        time.sleep(0.5)  # Be nice to the API
+        time.sleep(0.5)
 
-    # Flatten to JSONL for Databricks ingestion
     jsonl_file = f"{OUTPUT_DIR}/reviews_{run_id}.jsonl"
     with open(jsonl_file, "w", encoding="utf-8") as f:
         for r in all_reviews:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-    # Metadata manifest
     manifest = {
         "run_id": run_id,
         "scraped_at": scraped_at,
@@ -108,7 +120,6 @@ def scrape():
     with open(f"{OUTPUT_DIR}/manifest_{run_id}.json", "w") as f:
         json.dump(manifest, f, indent=2)
 
-    # Clear checkpoint on success
     if os.path.exists(CHECKPOINT_FILE):
         os.remove(CHECKPOINT_FILE)
 
