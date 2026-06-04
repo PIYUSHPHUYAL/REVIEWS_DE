@@ -39,12 +39,11 @@ jobs:
           path: raw_reviews/
           retention-days: 30
 
-      # ========== NEW: Databricks Upload ==========
       - name: Install Databricks CLI
         run: |
           curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
 
-            - name: Upload to Unity Catalog Volume
+      - name: Upload to Unity Catalog Volume
         env:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
@@ -54,26 +53,32 @@ jobs:
 
           echo "Uploading to ${TARGET_PATH}"
 
-          # Create target directory first (upload a dummy file to create path, then remove)
+          # Create target directory by uploading then removing a dummy file
           echo '{"init": true}' > /tmp/init.json
           databricks fs cp /tmp/init.json "${TARGET_PATH}/init.json"
           databricks fs rm "${TARGET_PATH}/init.json"
 
           # Upload JSONL files one by one
           for file in raw_reviews/reviews_*.jsonl; do
-            echo "Uploading $file..."
-            databricks fs cp "$file" "${TARGET_PATH}/"
+            if [ -f "$file" ]; then
+              echo "Uploading $file..."
+              databricks fs cp "$file" "${TARGET_PATH}/"
+            fi
           done
 
           # Upload manifest files one by one
           for file in raw_reviews/manifest_*.json; do
-            echo "Uploading $file..."
-            databricks fs cp "$file" "${TARGET_PATH}/"
+            if [ -f "$file" ]; then
+              echo "Uploading $file..."
+              databricks fs cp "$file" "${TARGET_PATH}/"
+            fi
           done
 
           # Upload page files using recursive copy
           mkdir -p /tmp/pages
-          cp raw_reviews/page_*.json /tmp/pages/
-          databricks fs cp -r /tmp/pages "${TARGET_PATH}/pages"
+          cp raw_reviews/page_*.json /tmp/pages/ 2>/dev/null || true
+          if [ "$(ls -A /tmp/pages)" ]; then
+            databricks fs cp -r /tmp/pages "${TARGET_PATH}/pages"
+          fi
 
           echo "✓ Upload complete: ${TARGET_PATH}"
