@@ -1,0 +1,246 @@
+{
+  "scraped_at": "2026-06-04T07:20:32.859609+00:00",
+  "run_id": "20260604_072032",
+  "page": 198,
+  "api_response": {
+    "count": 3946,
+    "per_page": 20,
+    "current_page": 198,
+    "total_pages": 198,
+    "next": null,
+    "previous": "https://tripadvisor-scraper-api.omkar.cloud/reviews?query=https%3A%2F%2Fwww.tripadvisor.com%2FAttraction_Review-g293890-d310712-Reviews-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html&page=197&sort_by=most_recent&locale=en-US",
+    "results": [
+      {
+        "review_id": 95540167,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r95540167-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Special experiences over cremation",
+        "text": "On the date we visited Pashupatinath, we found hundred of people over there... and we just noticed many policemen around. Our guide told us that a high-ranked police official was under cremation. \n\nWe observed the whole process, which was both shocking and interesting. It was the first time seeing this in a short distance. \n\nThere are a lot of Hindus priest. They asked for the photo taking but I did not as I did not know if they would ask for $ after photo. Are they real priest or just some way to get tourist money. Who knows?\n\nApart from these, as we are not hindu, we just can't see much. But, the entrance fee is Rs 500. It is pretty high when compared with other temples in Kathmandu.",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 2,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": "2011-01-31"
+        },
+        "reviewer": {
+          "reviewer_id": "20A5D2803E0E2C097C9E78844B24DB8E",
+          "name": "Aska_883",
+          "profile_link": "https://www.tripadvisor.com/Profile/Aska_883",
+          "username": "Aska_883",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c3/82/54/aska-883.jpg",
+          "contribution_count": 902,
+          "hometown": {
+            "tripadvisor_entity_id": 294217,
+            "location_name": "Hong Kong",
+            "location_name_detailed": "Hong Kong, China"
+          },
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c3/86/4c/pashupatinath.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c3/86/50/pashupatinath.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c3/86/51/pashupatinath.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/c3/86/52/cremation-going-on.jpg"
+        ],
+        "created_at_date": "2011-02-05",
+        "published_at_date": "2011-02-04"
+      },
+      {
+        "review_id": 79612722,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r79612722-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "You feel like you are out of place here - amazing to see it however",
+        "text": "You get the feeling that you should not be here from the moment you arrive, what is worse is when you take out your camera in some other worldly fascination to capture the scene and show everyone at home what you witnessed. \n\nThe Hindu priests (called Bhattas) can be seen walking around the complex, do not (unless you want to at lease) make eye contact or take their picture without permission, they do not take kindly to this. If you want a picture simply offer them some Rupees and they will be more than happy to pose. \n\nProbably my highlight from Kathmandu, a must see in my opinion to all visitors of the city.",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 3,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "83765EADAC8543C79F35AB640CA9C20E",
+          "name": "James L",
+          "profile_link": "https://www.tripadvisor.com/Profile/pplsgod",
+          "username": "pplsgod",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/c5/5b/ed/pplsgod.jpg",
+          "contribution_count": 93,
+          "hometown": {
+            "tripadvisor_entity_id": 255118,
+            "location_name": "Christchurch",
+            "location_name_detailed": "Christchurch, New Zealand"
+          },
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/a5/58/36/pashupatinath-temple.jpg"
+        ],
+        "created_at_date": "2010-09-15",
+        "published_at_date": "2010-09-15"
+      },
+      {
+        "review_id": 65962714,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r65962714-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "More than I expected, the most shocking place I visited",
+        "text": "It was our first day in Nepal, we hired a gide who took us to the pashupatinath temple. The first sight I remember was a body of a dead person carried by his family. I kept walking by a bridge and saw three bodies in fire. It was amazing to see all that people praying and burning their deads. And there was more, the other side of the river, that runs inside the temple, was habitated by Sadus and many, many monkeys.\nI didn't expect to find so many diferent and socking things in that place. If you are in Nepal, must go there.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 2,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "10CA5000E1020B58DEB4F3A855D071EB",
+          "name": "ltangari",
+          "profile_link": "https://www.tripadvisor.com/Profile/ltangari",
+          "username": "ltangari",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/87/c7/bc/ltangari.jpg",
+          "contribution_count": 54,
+          "hometown": {
+            "tripadvisor_entity_id": 303623,
+            "location_name": "Ribeirao Preto",
+            "location_name_detailed": "Ribeirao Preto, SP"
+          },
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/87/c7/b2/the-temple-and-the-river.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/87/c7/b3/the-sadus.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/87/c7/b4/the-burning-cerimony.jpg"
+        ],
+        "created_at_date": "2010-05-31",
+        "published_at_date": "2010-05-31"
+      },
+      {
+        "review_id": 48109222,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r48109222-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Very interesting - just remember to be respectful!",
+        "text": "Very interesting place, this is the Varanasi equal in Nepal - everybody from sadhus to tourist peacefully together. Just remember to be respectful, since there are crematations and funerals going on all the time. Not recommended for young children.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "C3EB272460152EF6CAD99C8E239A134C",
+          "name": "Chiisaineko",
+          "profile_link": "https://www.tripadvisor.com/Profile/Chiisaineko",
+          "username": "Chiisaineko",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/6d/default-avatar-2020-19.jpg",
+          "contribution_count": 43,
+          "hometown": null,
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2009-10-30",
+        "published_at_date": "2009-10-30"
+      },
+      {
+        "review_id": 28684194,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r28684194-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "It's not for everybody--even if we're all headed that way",
+        "text": "We got to visit this temple on our first day--and were welcomed by women in red, gathered around a fire, celebrating. It was absolutely fascinating. Much further in, our guide pointed out the river, rather dried up due to lack of rain. Further down...a cremation was going on. Quite a surprise, but still this being a holy place--we saw all sorts of human endeavors--from the celebration of life, to the release into the next world. I don't think it's for everybody, especially the squemish--but hey, it's Nepal. And at the least, it makes for incredible stories.",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 2,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "8B6033267BFD35E728559A428F97C4FA",
+          "name": "JVATravels92",
+          "profile_link": "https://www.tripadvisor.com/Profile/JVATravels92",
+          "username": "JVATravels92",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-f/00/1d/13/e3/juliavanderbilt.jpg",
+          "contribution_count": 328,
+          "hometown": null,
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/28/eb/2f/kathmandu.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/28/eb/30/kathmandu.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/28/eb/31/kathmandu.jpg"
+        ],
+        "created_at_date": "2009-04-24",
+        "published_at_date": "2009-04-24"
+      },
+      {
+        "review_id": 20876315,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r20876315-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Unbelievable",
+        "text": "Pashupatinath is well worth the effort. We had hired a guide who was walking around the entrance who spoke excellent english and was very knowledgeable. Well worth it but check em out before you commit. This temple is where the Hindus come to be \"released\" for lack of better words. The dead are burned here and their ashes tossed in the river. There is also a hospice there where the dying go as it's bad form to die in your home. I'd suggest reading up on the Hindu religion a bit before as it would make more sense. I wish I had. There are monkeys, holy men, shrines, deities, the whole works here.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 11,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "ED57E743F3E54E5D92AC55DE2B703BAC",
+          "name": "McReel",
+          "profile_link": "https://www.tripadvisor.com/Profile/McReel",
+          "username": "McReel",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/66/default-avatar-2020-53.jpg",
+          "contribution_count": 6,
+          "hometown": null,
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2008-10-14",
+        "published_at_date": "2008-10-14"
+      }
+    ],
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "original_language_distribution": null,
+    "translated_language_distribution": null,
+    "review_keywords": null,
+    "location": {
+      "tripadvisor_entity_id": 310712,
+      "name": "Pashupatinath Temple",
+      "link": "https://www.tripadvisor.com/Hotel_Review-d310712-Reviews-Pashupatinath_Temple.html",
+      "reviews": 0,
+      "rating": null,
+      "place_type": "hotel"
+    }
+  }
+}

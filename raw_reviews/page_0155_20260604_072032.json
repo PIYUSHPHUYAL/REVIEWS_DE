@@ -1,0 +1,740 @@
+{
+  "scraped_at": "2026-06-04T07:20:32.859609+00:00",
+  "run_id": "20260604_072032",
+  "page": 155,
+  "api_response": {
+    "count": 3946,
+    "per_page": 20,
+    "current_page": 155,
+    "total_pages": 198,
+    "next": "https://tripadvisor-scraper-api.omkar.cloud/reviews?query=https%3A%2F%2Fwww.tripadvisor.com%2FAttraction_Review-g293890-d310712-Reviews-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html&page=156&sort_by=most_recent&locale=en-US",
+    "previous": "https://tripadvisor-scraper-api.omkar.cloud/reviews?query=https%3A%2F%2Fwww.tripadvisor.com%2FAttraction_Review-g293890-d310712-Reviews-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html&page=154&sort_by=most_recent&locale=en-US",
+    "results": [
+      {
+        "review_id": 219681489,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r219681489-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Pasupathinath Temple",
+        "text": "Its just a beautiful temple and ofcourse its soooo famous and a mustdo in Nepal.Photos arent allowed so pls respect that and dont go clicking.They will just confiscate ur camera",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "solo",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "23EA4C698E91A7F667C1D17069683F6D",
+          "name": "ShikhaYadav",
+          "profile_link": "https://www.tripadvisor.com/Profile/ShikhaYadav",
+          "username": "ShikhaYadav",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/8e/77/53/shikhayadav.jpg",
+          "contribution_count": 23,
+          "hometown": null,
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-08-05",
+        "published_at_date": "2014-08-05"
+      },
+      {
+        "review_id": 219279243,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r219279243-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "World Heritage Site",
+        "text": "We witnessed the evening Aarti around 7pm.... The Temple is one of the world heritage sites in Nepal... It is worth visiting whilst in Kathmandu.... ",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 3,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "couples",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "F0DC3AD178D1BF86AC60ADBC705D65A3",
+          "name": "Dats_Abhi",
+          "profile_link": "https://www.tripadvisor.com/Profile/Dats_Abhi",
+          "username": "Dats_Abhi",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/8c/b2/cf/dats-abhi.jpg",
+          "contribution_count": 94,
+          "hometown": {
+            "tripadvisor_entity_id": 1940497,
+            "location_name": "Muscat",
+            "location_name_detailed": "Muscat, Oman"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-08-03",
+        "published_at_date": "2014-08-03"
+      },
+      {
+        "review_id": 218815401,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r218815401-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Shiva Temple with a twist",
+        "text": "'Heritage site' declared..not very clean..but a perfect place for street shopping..The temple with Ghosala is just amazing.. dead bodies are burnt on the banks of the temple, the ashes being immersed immediately. The architecture of the temple s so detailed..Defi a place to visit..",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "business",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "A96D2CC73D3AFE3DCA60BF6DFC7DBECD",
+          "name": "Shobana W",
+          "profile_link": "https://www.tripadvisor.com/Profile/shobanaw",
+          "username": "shobanaw",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e8/5b/default-avatar-2020-61.jpg",
+          "contribution_count": 7,
+          "hometown": {
+            "tripadvisor_entity_id": 304556,
+            "location_name": "Chennai (Madras)",
+            "location_name_detailed": "Chennai (Madras), India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-08-01",
+        "published_at_date": "2014-08-01"
+      },
+      {
+        "review_id": 218470278,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r218470278-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Very holy place",
+        "text": "Very old and historical pilgrim but not well maintained by the local authority. It should be developed in better way to attract more tourist/devotees",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 1,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "family",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "BEF51F5E04012A1873D614E0EE42D42F",
+          "name": "Anish524",
+          "profile_link": "https://www.tripadvisor.com/Profile/Anish524",
+          "username": "Anish524",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/df/2b/default-avatar-2020-39.jpg",
+          "contribution_count": 20,
+          "hometown": {
+            "tripadvisor_entity_id": 494941,
+            "location_name": "Indore",
+            "location_name_detailed": "Indore, India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-30",
+        "published_at_date": "2014-07-30"
+      },
+      {
+        "review_id": 218163318,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r218163318-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Not convinced",
+        "text": "I felt it was a bit of a shame to turn the process of death into a tourist attraction.  If you have a genuine interest in Hinduism and cremation from a spiritual perspective I would definitely say go.  We were there on a day when there was a politicians cremation and learning about the process was interesting, but I still felt it was a bit voyeuristic. The sadhus who wander around seem to be a part of the money making process and I wasn't convinced of their spiritual integrity.  This is the only place in Kathmandu where we were really hassled by street hawkers.",
+        "review_tip": null,
+        "rating": 3,
+        "subratings": [],
+        "like_count": 2,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "friends",
+          "stay_date": "2013-12-31"
+        },
+        "reviewer": {
+          "reviewer_id": "2E598CB820D31F2BDCDF4DF4C61FD701",
+          "name": "Jacqui L",
+          "profile_link": "https://www.tripadvisor.com/Profile/697jacquil",
+          "username": "697jacquil",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/e5/66/default-avatar-2020-53.jpg",
+          "contribution_count": 14,
+          "hometown": {
+            "tripadvisor_entity_id": 186338,
+            "location_name": "London",
+            "location_name_detailed": "London, United Kingdom"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-29",
+        "published_at_date": "2014-07-29"
+      },
+      {
+        "review_id": 217214400,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r217214400-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "A Must visit for Hindu Pilgrims",
+        "text": "Whenever I visit Kathmandu, Pashupatinath Temple is the place where I will visit at any cost. I find the devine peace there. The ancient temple of Lord Shiva is one of the Jyotir Linga, which means one of the most worshiped Shivlinga.\nThe atmosphere here is superb. The river near temple is used for hindu last rites when a person is died.  ",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "friends",
+          "stay_date": "2013-10-31"
+        },
+        "reviewer": {
+          "reviewer_id": "905B61850CBD996CC1ADDEB737AACBF2",
+          "name": "sanjay a",
+          "profile_link": "https://www.tripadvisor.com/Profile/sanju-aruna",
+          "username": "sanju-aruna",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c2/73/52/sanjay-a.jpg",
+          "contribution_count": 70,
+          "hometown": {
+            "tripadvisor_entity_id": 304558,
+            "location_name": "Kolkata (Calcutta)",
+            "location_name_detailed": "Kolkata (Calcutta), India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-24",
+        "published_at_date": "2014-07-24"
+      },
+      {
+        "review_id": 216967816,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r216967816-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Not Worth it",
+        "text": "Apologies to all fans of Pashupatinath Temple, but it wasn't worth the money I paid. $1500 rupees is not that much for a tkt, but compared with other great sites like Budhanath Temple which we paid $300 Rupees it's a big let down, considering you can't get inside the Golden Temple or any other attraction in the Heritage site. Ignore the guides as they would be useless. It's different and culturally chocking to see cremation ceremony taking place, but there are some other amazing sites in Kathmandu. ",
+        "review_tip": null,
+        "rating": 2,
+        "subratings": [],
+        "like_count": 3,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "B475A39B31DD571E641623673009A9F8",
+          "name": "Sadao Abe",
+          "profile_link": "https://www.tripadvisor.com/Profile/sadabe13",
+          "username": "sadabe13",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/d5/default-avatar-2020-17.jpg",
+          "contribution_count": 16,
+          "hometown": {
+            "tripadvisor_entity_id": 7318760,
+            "location_name": "Bondi Beach",
+            "location_name_detailed": "Bondi Beach, Australia"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-23",
+        "published_at_date": "2014-07-22"
+      },
+      {
+        "review_id": 216523109,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r216523109-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "7th visit",
+        "text": "My 7th visit to this temple.  Saw the evening AARTHI  and also spent considerable time in the temple complex admiring the various statues.  The sanctum this visit was cleaner than the earlier visits.  The menace of PAAN chewing and spitting has reduced but still needs to be more thorough.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 1,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "family",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "C5E166E2633DA1CC0E2F7253AD8F30FC",
+          "name": "RAJESH S",
+          "profile_link": "https://www.tripadvisor.com/Profile/rajeshnsee",
+          "username": "rajeshnsee",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/aa/1a/78/rajesh-s.jpg",
+          "contribution_count": 179,
+          "hometown": {
+            "tripadvisor_entity_id": 304556,
+            "location_name": "Chennai (Madras)",
+            "location_name_detailed": "Chennai (Madras), India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-21",
+        "published_at_date": "2014-07-20"
+      },
+      {
+        "review_id": 216516272,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r216516272-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Historic Hindu temple",
+        "text": "The temple was very much on my itenary and enjoyed the Darshan and Pooja being performed by the Locals.Overall cleanliness could have been better.I offered tip to the people but they refused saying they work for The Lord .I liked this attitude very much.Did shopping ourside the temple area.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "friends",
+          "stay_date": "2014-05-31"
+        },
+        "reviewer": {
+          "reviewer_id": "CF67999F16E7C57DD8FD16147670AEF3",
+          "name": "pcgoliya",
+          "profile_link": "https://www.tripadvisor.com/Profile/pcgoliya",
+          "username": "pcgoliya",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/eb/e3/default-avatar-2020-59.jpg",
+          "contribution_count": 33,
+          "hometown": {
+            "tripadvisor_entity_id": 304554,
+            "location_name": "Mumbai",
+            "location_name_detailed": "Mumbai, India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-21",
+        "published_at_date": "2014-07-20"
+      },
+      {
+        "review_id": 215826287,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r215826287-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Har Har MahaDev",
+        "text": "Amazing Feeling.. the first place u should visit.. also seen some aghori babas :)\nlittle bit rush all the time but its worth to wait to see the lord..superb place",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "friends",
+          "stay_date": "2014-06-30"
+        },
+        "reviewer": {
+          "reviewer_id": "CC6CB21051780DD8C1DED3C6720FD629",
+          "name": "Vivek I",
+          "profile_link": "https://www.tripadvisor.com/Profile/G0G0IR",
+          "username": "G0G0IR",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c5/93/dd/vivek-i.jpg",
+          "contribution_count": 11,
+          "hometown": {
+            "tripadvisor_entity_id": 2617033,
+            "location_name": "Kalyan",
+            "location_name_detailed": "Kalyan, India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-17",
+        "published_at_date": "2014-07-16"
+      },
+      {
+        "review_id": 215467147,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r215467147-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Racists",
+        "text": "I am married to a fair woman and was told I as an Indian could enter but my WIFE could not. Did not matter if we were Hindu or if she was Hindu. If you are white, you are not allowed in. You can pay 1000 rupees to see bodies being burnt and relatives crying, if you are white, but you cannot pay to enter the temple. It does not matter if you are a white Hindu or a fair indian Hindu, you will be turned away from visiting one of the holiest places in your religion. This goes against everything the hindu religion teaches, it's embarrassing.",
+        "review_tip": null,
+        "rating": 1,
+        "subratings": [],
+        "like_count": 6,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "couples",
+          "stay_date": "2014-02-28"
+        },
+        "reviewer": {
+          "reviewer_id": "316BDB7AB23C425F1DE3596C8CA39582",
+          "name": "R S",
+          "profile_link": "https://www.tripadvisor.com/Profile/NZRoaming",
+          "username": "NZRoaming",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/32/69/71/nzroaming.jpg",
+          "contribution_count": 57,
+          "hometown": {
+            "tripadvisor_entity_id": 298570,
+            "location_name": "Kuala Lumpur",
+            "location_name_detailed": "Kuala Lumpur, Malaysia"
+          },
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/30/4f/b3/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/30/4f/ab/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/30/4f/9c/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/30/4f/93/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/30/4f/88/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/30/4f/87/pashupatinath-temple.jpg"
+        ],
+        "created_at_date": "2014-07-15",
+        "published_at_date": "2014-07-14"
+      },
+      {
+        "review_id": 215458634,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r215458634-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Religious Travellers",
+        "text": "This temple is worth a visit for the religious traveller looking to capture the history of religion in Nepal. ",
+        "review_tip": null,
+        "rating": 3,
+        "subratings": [],
+        "like_count": 0,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "couples",
+          "stay_date": "2014-06-30"
+        },
+        "reviewer": {
+          "reviewer_id": "A6C8FCB96FA80B8B111D21160553DCA3",
+          "name": "Lex F",
+          "profile_link": "https://www.tripadvisor.com/Profile/920lexf",
+          "username": "920lexf",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f2/11/default-avatar-2020-23.jpg",
+          "contribution_count": 20,
+          "hometown": {
+            "tripadvisor_entity_id": 255347,
+            "location_name": "Bendigo",
+            "location_name_detailed": "Bendigo, Australia"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-14",
+        "published_at_date": "2014-07-14"
+      },
+      {
+        "review_id": 215314207,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r215314207-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Commercialized Exploitation",
+        "text": "Pashupatinath temple is tauted as one of the most significant Hindu temples of Shiva in the world. The temple is located on the banks of the Bagmati River in the eastern part of Kathmandu and serves as not only a place of worship for Hindus, but also a crematory. \n\nPlain and simply, Pashupatinath Temple is a tourist trap. \n\nEntrance for non-Asians is $10 (1,000 nrs) and that's the first opportunity to fork over money... \nBombarded with people offering a \"guided\" tour, the average tourist will get fleeced out of money by those looking to earn a quick buck. The Sadhus (Hindu holy men) were opportunistic as well, charging people for photo ops.  \n\nThe temple complex has a very dark and ominous feel... and something about all of the tourists taking pictures of the funeral pyres and grieving families just doesn't seem fitting or respectful.\n\nSave the 1000 rupees for momo's or a walk around Bhaktapur!",
+        "review_tip": null,
+        "rating": 1,
+        "subratings": [],
+        "like_count": 5,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "friends",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "4695AE8B9C797547A95BD529EF0C1ED7",
+          "name": "Doc Scott",
+          "profile_link": "https://www.tripadvisor.com/Profile/DocScott601",
+          "username": "DocScott601",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/51/5a/37/docscott601.jpg",
+          "contribution_count": 183,
+          "hometown": {
+            "tripadvisor_entity_id": 43971,
+            "location_name": "Purvis",
+            "location_name_detailed": "Purvis, Mississippi"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-14",
+        "published_at_date": "2014-07-14"
+      },
+      {
+        "review_id": 214796508,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r214796508-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "It's a one in a lifetime feeling!",
+        "text": "A must visit to feel the tranquility and blessings of Lord Mahadev.The experience is truly a journey within.To observe the Aghoris is a revelation in itself.The historical and spiritual significance of this beautiful temple can only be felt in person.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 1,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": null,
+          "stay_date": null
+        },
+        "reviewer": {
+          "reviewer_id": "FC1FF57D8CEBF638D64297E5482E31F4",
+          "name": "DrAnju Rahul",
+          "profile_link": "https://www.tripadvisor.com/Profile/dranjur",
+          "username": "dranjur",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/57/93/e6/avatar.jpg",
+          "contribution_count": 202,
+          "hometown": {
+            "tripadvisor_entity_id": 47890,
+            "location_name": "Hicksville",
+            "location_name_detailed": "Hicksville, New York"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-11",
+        "published_at_date": "2014-07-11"
+      },
+      {
+        "review_id": 214771192,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r214771192-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "God Bless...",
+        "text": "Visiting a place of such a significance and history was very exciting. The statue of Nandi is very attractive. Went on tuesday..thus was saved from the crowds..had a good darshan. As with hindu temples..cleanliness is an issue..Architechure is quite different from temples normally we see in North india.",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 1,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "couples",
+          "stay_date": "2014-06-30"
+        },
+        "reviewer": {
+          "reviewer_id": "3546399017ADB15D828FAD39A7BFA657",
+          "name": "AnuragMathur",
+          "profile_link": "https://www.tripadvisor.com/Profile/AnuragMathur",
+          "username": "AnuragMathur",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f0/9f/default-avatar-2020-16.jpg",
+          "contribution_count": 26,
+          "hometown": {
+            "tripadvisor_entity_id": 297672,
+            "location_name": "Udaipur",
+            "location_name_detailed": "Udaipur, India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-11",
+        "published_at_date": "2014-07-10"
+      },
+      {
+        "review_id": 214108406,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r214108406-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Must visit",
+        "text": "Must visit, not just for spiritual reasons but also architectural beauty. Beware of people selling offerings outside as they overcharge a lot. ",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 3,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "couples",
+          "stay_date": "2014-06-30"
+        },
+        "reviewer": {
+          "reviewer_id": "4784EA49F8717A114CC53A61ABD78170",
+          "name": "PradWestside",
+          "profile_link": "https://www.tripadvisor.com/Profile/PradWestside",
+          "username": "PradWestside",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/a6/34/02/pradwestside.jpg",
+          "contribution_count": 392,
+          "hometown": {
+            "tripadvisor_entity_id": 297687,
+            "location_name": "Dehradun",
+            "location_name_detailed": "Dehradun, India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-07",
+        "published_at_date": "2014-07-07"
+      },
+      {
+        "review_id": 213844534,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r213844534-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "beware",
+        "text": "Pashupatinath temple in Kathmandu may be considered as one of the holiest Hindu shrines. But beware while visiting the area. There is a gang of robbers operating around and in the temple which the local police have been unable to bust. They steal and rob travellers of their valuables by diverting their attention in talks related to the temple under the pretext of helping them. Many have lost their money, expensive mobiles and the like. Also a person claiming to be the priest will ask you for money (nrs 1000 plus negotiable) to take you inside the temple by another route bypassing the crowd. This implies that if you have money you are allowed to see the shrine faster unlike others who may have to wait because they do not have money enough to pay the priest. And this all when they claim that God treats all humans equal. The area is also very crowded and not so clean.",
+        "review_tip": null,
+        "rating": 2,
+        "subratings": [],
+        "like_count": 5,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "family",
+          "stay_date": "2014-06-30"
+        },
+        "reviewer": {
+          "reviewer_id": "D0F9B573E6086B0F3582851034973778",
+          "name": "dr_jsmehta",
+          "profile_link": "https://www.tripadvisor.com/Profile/dr_jsmehta",
+          "username": "dr_jsmehta",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f4/d0/default-avatar-2020-33.jpg",
+          "contribution_count": 11,
+          "hometown": null,
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-06",
+        "published_at_date": "2014-07-05"
+      },
+      {
+        "review_id": 213298014,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r213298014-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Holy Place for Hindus & best attraction in Kathmandu for everyone",
+        "text": "If you are in Kathmandu, once you most have to go to Pashupati Nath Temple.If not your tour will not finish ....This Place is the  head of four holy (CHar Dham) place  as a Whole Hindus. Every One will enjoy here.... So deference and so nice.If  you like to see all Temples than you have to go east of temple Jungle Side you will see very beautiful view.",
+        "review_tip": null,
+        "rating": 5,
+        "subratings": [],
+        "like_count": 1,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "family",
+          "stay_date": "2014-07-31"
+        },
+        "reviewer": {
+          "reviewer_id": "3E6251FA74666D762E1E3878DFE34FE0",
+          "name": "Gyanu G",
+          "profile_link": "https://www.tripadvisor.com/Profile/binayd2013",
+          "username": "binayd2013",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/12/e0/62/gyanu-g.jpg",
+          "contribution_count": 46,
+          "hometown": {
+            "tripadvisor_entity_id": 293890,
+            "location_name": "Kathmandu",
+            "location_name_detailed": "Kathmandu, Nepal"
+          },
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1e/0d/80/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1e/0d/99/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1e/0d/a7/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1e/0d/c1/pashupatinath-temple.jpg",
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1e/0d/d3/pashupatinath-temple.jpg"
+        ],
+        "created_at_date": "2014-07-02",
+        "published_at_date": "2014-07-02"
+      },
+      {
+        "review_id": 213218326,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r213218326-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Jyotirlinga in Nepal",
+        "text": "Famous temple with Huge complex housing old age house, gaushala and last rites area around Bagmati river. Avoid people approaching you for special puja etc. Darshan and puja is not very crowded at all. Cleanliness in Mandir area needs improvement.",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 3,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "couples",
+          "stay_date": "2014-06-30"
+        },
+        "reviewer": {
+          "reviewer_id": "894F4386DDA9E53281A9D4353A6EA7A0",
+          "name": "sharad140850",
+          "profile_link": "https://www.tripadvisor.com/Profile/sharad140850",
+          "username": "sharad140850",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/24/16/41/sharad140850.jpg",
+          "contribution_count": 46,
+          "hometown": {
+            "tripadvisor_entity_id": 304551,
+            "location_name": "New Delhi",
+            "location_name_detailed": "New Delhi, India"
+          },
+          "is_verified": false
+        },
+        "images": [
+          "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1d/86/88/pashupatinath-temple.jpg"
+        ],
+        "created_at_date": "2014-07-02",
+        "published_at_date": "2014-07-01"
+      },
+      {
+        "review_id": 213084971,
+        "review_link": "https://www.tripadvisor.com/ShowUserReviews-g293890-d310712-r213084971-Pashupatinath_Temple-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Central_Region.html",
+        "title": "Holy Palce",
+        "text": "Holy Palce for Hindus .. But not very clean ...visisted with long time back . Pls be aware of  touts . But temple is worht a visit once in life time . Pls take care of your belongigns",
+        "review_tip": null,
+        "rating": 4,
+        "subratings": [],
+        "like_count": 3,
+        "language": "en",
+        "is_translated": false,
+        "original_language": "en",
+        "owner_response": null,
+        "trip": {
+          "trip_type": "family",
+          "stay_date": "2013-10-31"
+        },
+        "reviewer": {
+          "reviewer_id": "DC70C7C89D787D3AB073DC85C83F99EE",
+          "name": "TravelBum",
+          "profile_link": "https://www.tripadvisor.com/Profile/TravelbumIN",
+          "username": "TravelbumIN",
+          "avatar": "https://dynamic-media-cdn.tripadvisor.com/media/photo-f/01/2e/70/7f/avatar066.jpg",
+          "contribution_count": 171,
+          "hometown": {
+            "tripadvisor_entity_id": 304554,
+            "location_name": "Mumbai",
+            "location_name_detailed": "Mumbai, India"
+          },
+          "is_verified": false
+        },
+        "images": [],
+        "created_at_date": "2014-07-01",
+        "published_at_date": "2014-07-01"
+      }
+    ],
+    "rating_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "original_language_distribution": null,
+    "translated_language_distribution": null,
+    "review_keywords": null,
+    "location": {
+      "tripadvisor_entity_id": 310712,
+      "name": "Pashupatinath Temple",
+      "link": "https://www.tripadvisor.com/Hotel_Review-d310712-Reviews-Pashupatinath_Temple.html",
+      "reviews": 0,
+      "rating": null,
+      "place_type": "hotel"
+    }
+  }
+}
